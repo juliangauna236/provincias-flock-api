@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a0cf5e6-487e-49d8-b411-70ce7d84ca1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flock/provincias/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flock/provincias/controllers/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/flock/provincias/controllers/ProvinciasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flock/provincias/controllers/ProvinciasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flock/provincias/models/Centroide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flock/provincias/models/Centroide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/flock/provincias/services/JwtUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/flock/provincias/services/JwtUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,38 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UserDetailsServiceTest">
+    <configuration name="ProvinciasServiceTest.getAllProvincias" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provincias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flock.provincias.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flock.provincias.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.flock.provincias.controllers.ProvinciasServiceTest" />
+      <option name="METHOD_NAME" value="getAllProvincias" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDetailsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provincias" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flock.provincias.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.flock.provincias.services" />
+      <option name="MAIN_CLASS_NAME" value="com.flock.provincias.services.UserDetailsServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProvinciasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provincias" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flock.provincias.ProvinciasApplication" />
@@ -64,6 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDetailsServiceTest" />
+        <item itemvalue="JUnit.ProvinciasServiceTest.getAllProvincias" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655511961267</updated>
       <workItem from="1655511966481" duration="2082000" />
-      <workItem from="1655612346990" duration="16226000" />
+      <workItem from="1655612346990" duration="21118000" />
     </task>
     <servers />
   </component>
@@ -92,5 +130,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/flock/provincias/services/UserDetailsServiceTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
