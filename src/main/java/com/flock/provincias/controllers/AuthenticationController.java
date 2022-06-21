@@ -2,6 +2,8 @@ package com.flock.provincias.controllers;
 
 import java.util.Objects;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -23,6 +25,7 @@ import com.flock.provincias.models.JwtResponse;
 
 @RestController
 @CrossOrigin
+@Api("Authentication")
 public class AuthenticationController {
 
     @Autowired
@@ -34,6 +37,7 @@ public class AuthenticationController {
     @Autowired
     private JwtUserDetailsService userDetailsService;
 
+    @ApiOperation(value = "Autenticación", notes = "Obtiene el token de usuario")
     @RequestMapping(value = "/authenticate", method = RequestMethod.POST)
     public ResponseEntity<?> createAuthenticationToken(@RequestBody JwtRequest authenticationRequest) throws Exception {
 
